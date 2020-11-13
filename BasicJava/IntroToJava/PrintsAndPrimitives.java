@@ -1,4 +1,4 @@
-public class JavaExampleA {
+public class PrintsAndPrimitives {
     public static void main (String[] args) {
         // [primitive type] [name of variable] = [value];
 

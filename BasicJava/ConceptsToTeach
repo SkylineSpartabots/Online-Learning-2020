@@ -1,0 +1,36 @@
+Primitives (basic types)
+Prints
+String concatenations
+//File Fix project
+
+Basic modifiers (public/private)
+Class variables and their use
+Scopes
+The idea of static (basic overview and the fact that it is needed)
+String methods
+Boolean logic (&& and ||)
+If checking, else if checking
+Switch case
+//String Checker project
+    -Can sort if a String is xyz
+    
+Scanner
+Try/catch statements
+Basic math and operators (+ - * / %)
+Math methods
+//Mathematical Calculator project (varying levels of difficulty)
+    -Can range from pythagorean calculator to system equation solver
+
+For loops (include break and continue)
+While loops
+Arrays
+2D Arrays
+Nested for loops
+//Unknown project
+
+Methods
+Overloading
+Return types
+//Full calculator project
+
+

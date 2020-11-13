@@ -7,7 +7,6 @@ public class Book {
     boolean isHardCover = true;
     String author = "Jack Miles";
     String publisher = "Norton";
-
     boolean isBookOpen = false;
 
     //these methods are how we interact with the book

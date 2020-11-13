@@ -1,0 +1,59 @@
+# PRACTICE PROBLEMS:
+
+### Find the output of each boolean logic given:
+
+```
+Ex.
+(x && y)
+x = true
+y = true
+
+Result: true
+```
+
+(assume all variables are of primitive type boolean)
+Hint: There may be more than just one combo!
+
+1. (x && y && z)
+    - x = true
+    - y = true
+    - z = true
+
+2. ((x && z) || y)
+    - x = true
+    - y = false
+    - z = true
+
+3. (x || z || y)
+    - x = false
+    - y = false
+    - z = true
+
+4. (!(x && y) && z)
+    - x = true
+    - y = true
+    - z = true
+
+5. (!(x || z) && y)
+    - x = true
+    - y = true
+    - z = false
+
+
+### Now: Change ONE of the variables in each of those problems to FLIP the resultant boolean
+
+```
+Ex.
+(x && y)
+x = true
+y = true
+
+Result: true
+
+Flip the value of x ->
+(x && y)
+x = false
+y = true
+
+Result: false
+```

@@ -1,0 +1,13 @@
+## Part A Answers:
+1. Result: true
+2. Result: true
+3. Result: true
+4. Result: false
+5. Result: false
+
+## Part B Answers:
+1. ANY variable
+2. x OR z
+3. z
+4. x OR y
+5. x
