@@ -28,14 +28,14 @@ public class ModifiersAndBooleanLogic {
 
                 charAt - returns the character at an index (first letter is 0)
 
-                indexOf - gives you the index of the first occurence of the letter given 
+                indexOf - gives you the index of the first occurrence of the letter given 
                     (has a fromIndex flavor)
 
                 lastIndexOf - gives you the last index of given character/string
                 ^^^ for the previous two, when you give a string parameter, 
                     it will tell you the index of the start letter of the given string
 
-                substring - gives you the string from the given indicies (including first, excluding last)
+                substring - gives you the string from the given indices (including first, excluding last)
 
                 replace - replaces all of given char (or charsequence and by extension a String) in string
 
@@ -49,6 +49,7 @@ public class ModifiersAndBooleanLogic {
 
                 toLowerCase - Returns lowercase
             */
+        //Basic comparators with ints < > ==
         String s = "!AaBbCc Test ExampleString!";
         System.out.println();
     }
