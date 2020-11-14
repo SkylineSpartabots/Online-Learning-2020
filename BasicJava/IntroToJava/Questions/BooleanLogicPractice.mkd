@@ -1,4 +1,6 @@
 # PRACTICE PROBLEMS:
+View on Github: 
+https://github.com/SkylineSpartabots/Online-Learning-2020/blob/main/BasicJava/IntroToJava/Questions/BooleanLogicPractice.mkd
 
 ### Find the output of each boolean logic given:
 
