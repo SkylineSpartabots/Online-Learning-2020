@@ -7,7 +7,7 @@ You are deciding what to wear outside today, but your house does not have window
 For pants:
 - If below 70, wear sweatpants
 - If above 70 but below 100, wear shorts
-- If above 100, wear shorts
+- If above 100, wear a swimsuit
 
 For top:
 - If below 50, wear a t-shirt
