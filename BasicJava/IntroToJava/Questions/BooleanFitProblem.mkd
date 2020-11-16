@@ -1,0 +1,43 @@
+# Boolean Problems!
+
+## Problem 1:
+### Create booleans, integers, and if checks to create logical operations for the following scenario:
+You are deciding what to wear outside today, but your house does not have windows and you are too lazy to step outside to check. All you know is the temperature and if it is raining. Create a program that, with an int temp and a boolean isRaining, tells you what pants, top, hat, and coat to wear.
+
+For pants:
+- If below 70, wear sweatpants
+- If above 70 but below 100, wear shorts
+- If above 100, wear shorts
+
+For top:
+- If below 50, wear a t-shirt
+- If above 50 but below 70, wear a sweatshirt
+- If above 70, wear a tank top
+
+For hat:
+- If below 40, wear a hat
+- If between 40 and 70, don't wear a hat
+- If above 70, wear a hat
+
+For rain:
+- If raining, wear a raincoat
+- If not raining, don't wear a raincoat
+  
+### Hints:
+Each one of these articles of clothing should be represented as an if -> else if -> else statement. DON'T CHAIN EVERYTHING TOGETHER INTO ONE BIG "if else" CHAIN! The articles of clothing act independent of each other.
+
+You will need to use the < and > comparators to compare the temp to the bounds
+
+Prints should be what end up in the brackets of the if statement
+
+Print the conditions + the day's fit to the console (Example output below):
+```
+Temp: 60
+isRaining: false
+
+Sweatpants
+Sweatshirt
+No Hat
+No Raincoat
+```
+Check [here](https://github.com/SkylineSpartabots/Online-Learning-2020/tree/main/BasicJava/IntroToJava/ProjectFiles/BooleanFitProblemTemplate.java) to find the template!
