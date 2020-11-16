@@ -10,8 +10,8 @@ For pants:
 - If above 100, wear a swimsuit
 
 For top:
-- If below 50, wear a t-shirt
-- If above 50 but below 70, wear a sweatshirt
+- If below 50, wear a sweatshirt
+- If above 50 but below 70, wear a t-shirt
 - If above 70, wear a tank top
 
 For hat:
@@ -36,7 +36,7 @@ Temp: 60
 isRaining: false
 
 Sweatpants
-Sweatshirt
+T-shirt
 No Hat
 No Raincoat
 ```
