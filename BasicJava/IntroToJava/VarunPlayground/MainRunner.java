@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.DoubleSupplier;
 
 public class MainRunner {
     public static void main(String[] args) {
+        /*
         TestingClass t = new TestingClass(5);
         TestingClass x = new TestingClass(7);
         TestingClass a = new TestingClass(4);
@@ -26,5 +28,14 @@ public class MainRunner {
         for(Map.Entry<Character,Integer> z : myMap.entrySet()) {
             System.out.println((z.getValue() > 1) && (!z.getKey().equals(' '))? (z.getKey() + ":" + z.getValue()): z.getKey() + ": too few");
         }
+        */
+        Converter plusTwenty = b -> {
+            double[] ret_val = new double[b.length];
+            for (int i = 0; i < b.length; i++) {
+                ret_val[i] = b[i] + 20;
+            }
+            return ret_val;
+        };
+        System.out.println(Arrays.toString(plusTwenty.convert(5, 3, 4, 6, 5, 6, 4, 3, 2, 1)));
     }
 }

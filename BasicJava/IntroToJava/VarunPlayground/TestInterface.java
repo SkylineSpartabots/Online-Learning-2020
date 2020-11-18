@@ -1,5 +1,5 @@
 package VarunPlayground;
 
 public interface TestInterface {
-    public void run();
+    public String run(int b);
 }

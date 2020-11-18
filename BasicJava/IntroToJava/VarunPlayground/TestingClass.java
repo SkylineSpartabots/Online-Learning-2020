@@ -12,7 +12,7 @@ public class TestingClass extends TestAbstract implements TestInterface  {
     }
 
     @Override
-    public void run() {
-        System.out.println(x + ";;;");
+    public String run(int b) {
+        return "aaa";
     }
 }
