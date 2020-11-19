@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ModifiersAndBooleanLogic {
+public class ModifiersAndBooleanLogic_StringsAndComparators {
     public static int everyoneCanSee = 0;
     private static int onlyThisClassCanSee = 1;
 

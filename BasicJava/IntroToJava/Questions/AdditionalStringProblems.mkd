@@ -1,0 +1,68 @@
+# Additional Practice Problems
+Difficulties range from * (easy) to ***** (hard).
+Take a look at the previous two lesson files (the .java's) for help [here](https://github.com/SkylineSpartabots/Online-Learning-2020/tree/main/BasicJava/IntroToJava).
+
+If you need help, DM me!
+## Problem 1: (***)
+### Trigonometric Hell: 
+There is a method in Java that creates a random double from 0 to 1.0. It is shown below:
+```
+double randDouble = Math.random();
+```
+You can multiply this by a constant and then round it to an integer (by casting + Math.round()) to get a range of numbers between 0 and the constant. Ex:
+```
+int randInt = (int)Math.round((randDouble * 360));
+```
+Using this random number generator and the knowledge of how to get it into an int, do the following:
+Generate a random degree (0 - 360) and tell me:
+- Which quadrant it is in
+- If sin, cos, tan, csc, sec, cot are either positive or negative in that quadrant
+- If the degree is within the domain of the inverses of the three main trigonometric functions (you may need to look this up)
+- If the angle's complement is obtuse, acute or right
+
+## Problem 2: (****)
+### Bucket Problem ADVANCED:
+Just like the other bucket problem, but with new buckets (harder ones!)
+```
+A - The ASCII code of the first character is greater than 100, and less than 120
+B - Has the letter 'a' as the first or third letter, OR has the letter 'x' anywhere
+C - Has a length of between 3 and 10, OR above 15
+D - Does not contain any vowels
+E - In buckets A and B, but NOT C
+F - Is in no other buckets
+```
+
+## Problem 3: (**)
+### Code generator:
+Create a problem that takes in a string in this format:
+```
+String unCoded = x y stringGoesHere;
+```
+x can be any letter, and y can be any letter. 
+Your program will separate those letters from the string, and swap all x's with y's in the string, and vice versa to create a code. It should ignore case (toLowerCase). Ex:
+```
+String s = s b ThE SpaRtaBotS;
+//Your code goes here
+
+Output:
+the bpartasotb
+```
+Hint: You may need a "temp" char to be a placeholder to prevent over-replacements. DM Me if you need help.
+
+## Problem 4: (*)
+### Cool name generator:
+Create a program that takes a string and
+- Replaces all 'o' or 'O' with '0'
+- Replaces all 'E' or 'e' with '3'
+- Replaces all 'l' or 'I' with '1'
+- Add xX_ to the beginning of the string
+- Add _Xx to the end of the string
+Ex.
+```
+String input = "varoon_lASEr";
+//Your code goes here
+
+Output:
+var00n_1AS3r
+```
+

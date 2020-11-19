@@ -28,7 +28,7 @@ public class MainRunner {
         for(Map.Entry<Character,Integer> z : myMap.entrySet()) {
             System.out.println((z.getValue() > 1) && (!z.getKey().equals(' '))? (z.getKey() + ":" + z.getValue()): z.getKey() + ": too few");
         }
-        */
+        
         Converter plusTwenty = b -> {
             double[] ret_val = new double[b.length];
             for (int i = 0; i < b.length; i++) {
@@ -37,5 +37,13 @@ public class MainRunner {
             return ret_val;
         };
         System.out.println(Arrays.toString(plusTwenty.convert(5, 3, 4, 6, 5, 6, 4, 3, 2, 1)));
+        */
+        for (int i = 0; i < 20; i++) {
+            double randDouble = Math.random(); 
+            System.out.print(randDouble + " : ");
+            int randInt = (int)Math.round(randDouble * 100);
+            System.out.println(randInt + ", ");
+        }
+        
     }
 }
