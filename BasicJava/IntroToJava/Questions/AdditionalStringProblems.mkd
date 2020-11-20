@@ -17,8 +17,8 @@ Using this random number generator and the knowledge of how to get it into an in
 Generate a random degree (0 - 360) and tell me:
 - Which quadrant it is in
 - If sin, cos, tan, csc, sec, cot are either positive or negative in that quadrant
-- If the degree is within the domain of the inverses of the three main trigonometric functions (you may need to look this up)
-- If the angle's complement is obtuse, acute or right
+- If the degree is within the range of the inverses of the three main trigonometric functions (you may need to look this up)
+- If the angle's supplement is obtuse, acute or right (angle + its supplement = 180)
 
 ## Problem 2: (****)
 ### Bucket Problem ADVANCED:
