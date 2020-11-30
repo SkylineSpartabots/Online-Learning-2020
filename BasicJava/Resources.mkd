@@ -1,0 +1,5 @@
+Resources:
+
+[Examples of lots of Java syntax](https://www.w3schools.com/java/java_examples.asp)
+[String methods list](https://www.w3schools.com/java/java_ref_string.asp)
+[Math methods list](https://www.w3schools.com/java/java_ref_math.asp)
