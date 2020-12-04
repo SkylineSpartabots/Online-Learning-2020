@@ -1,4 +1,4 @@
-# Math Practice Problems
+# Scanners/Math Practice Problems
 Difficulties range from * (easy) to ***** (hard).
 Take a look at the previous lesson files (the .java's) for help [here](https://github.com/SkylineSpartabots/Online-Learning-2020/tree/main/BasicJava/IntroToJava).
 
