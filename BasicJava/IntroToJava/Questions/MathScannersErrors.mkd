@@ -1,0 +1,55 @@
+# Math Practice Problems
+Difficulties range from * (easy) to ***** (hard).
+Take a look at the previous lesson files (the .java's) for help [here](https://github.com/SkylineSpartabots/Online-Learning-2020/tree/main/BasicJava/IntroToJava).
+
+If you need help, DM me!
+## Problem 1: (**)
+### Information Splicer
+Use scanner to take in the following
+- First name
+- Last name
+- Date of birth (in MM/DD/YYYY format)
+Output a String formatted as such:
+
+Your name is [FIRSTNAME] [LASTNAME]. You were born on the [MONTH NUMBER] of [ACTUAL NAME OF MONTH] in [YEAR].
+
+Example:
+```
+Input: 
+Varun Ananth 2/3/2003
+
+Output: 
+Your name is Varun Ananth. You were born on the 3rd of February in 2003.
+```
+
+## Problem 2: (***)
+### Basic Deriver
+Use scanner to take in an expression in the form C*x^a and print out the derivative of that polynomial (assume decimal input). If you do not know how to derive, look up the power rule.
+
+Example:
+```
+Input: 
+0.5*x^3
+
+Output: 
+1.5*x^2
+```
+## Problem 3: (****)
+### Place Shifter
+Take in a number 100,000 to 999,999 and write a program that isolates each digit and prints them all and if the digit is below 9, increments it and then ultimately prints it out.
+Hint: Use modulus and division.
+
+Example:
+```
+Input: 
+123456
+
+Output: 
+1
+2
+3
+4
+5
+6
+234567
+```
