@@ -1,5 +1,6 @@
 package VarunPlayground;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -37,13 +38,16 @@ public class MainRunner {
             return ret_val;
         };
         System.out.println(Arrays.toString(plusTwenty.convert(5, 3, 4, 6, 5, 6, 4, 3, 2, 1)));
-        */
+        
         for (int i = 0; i < 20; i++) {
             double randDouble = Math.random(); 
             System.out.print(randDouble + " : ");
             int randInt = (int)Math.round(randDouble * 100);
             System.out.println(randInt + ", ");
         }
-        
+        */
+        byte[] byteArr = {127,0,0,0,0,0,0,0,0,0,0};
+        BigInteger bi = new BigInteger(byteArr);
+        System.out.println(bi);
     }
 }
