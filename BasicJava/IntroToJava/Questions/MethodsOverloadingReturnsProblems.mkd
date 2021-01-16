@@ -25,10 +25,6 @@ Use your derivative calculator code from before, but turn it into a method that 
 ### Triangle Teller
 Create a method that takes in 3 side lengths (as doubles) and determines if the triangle passed in is equilateral, isosceles, or scalene. It should also tell you if the triangle is "special" (i.e 45-45-90, 30-60-90). Hint: Return a string.
 
-## Problem 7: (***)
-### Derivative Calculator Method
-Use your derivative calculator code from before, but turn it into a method that takes in a string and spits out the derived string.
-
 ## Problem 8: (****)
 ### Between Dates
 Create a method that takes in two dates in MM/DD/YYYY form and calculates the amount of days between those two dates. You can ignore leap years if you'd like.

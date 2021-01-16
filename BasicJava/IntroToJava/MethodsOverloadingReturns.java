@@ -15,7 +15,7 @@ public class MethodsOverloadingReturns {
         s.charAt(3);
       */
       int[] unSummed = {1, 5, 9, 220, 3};
-      int returnedSum = example1(unSummed);
+      int returnedSum = example1(new int[] {1, 5, 9, 220, 3});
       example2("Varun", 77);
       double[] myd = new double[10];
       myd = example3();
