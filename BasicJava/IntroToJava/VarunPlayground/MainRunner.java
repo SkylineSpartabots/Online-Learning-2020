@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 import java.util.function.DoubleSupplier;
 
 public class MainRunner {
@@ -46,8 +47,16 @@ public class MainRunner {
             System.out.println(randInt + ", ");
         }
         */
-        byte[] byteArr = {127,0,0,0,0,0,0,0,0,0,0};
+        /*byte[] byteArr = {127,0,0,0,0,0,0,0,0,0,0};
         BigInteger bi = new BigInteger(byteArr);
-        System.out.println(bi);
+        System.out.println(bi);*/
+        /*
+        String[] allAminos = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+        Random r = new Random();
+        for (int i = 0; i < 250; i++) {
+            System.out.print(allAminos[r.nextInt(allAminos.length)]);
+        }
+        */
+        
     }
 }

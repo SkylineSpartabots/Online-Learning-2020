@@ -3,7 +3,7 @@ Difficulties range from * (easy) to ***** (hard).
 
 ## Problem 1: (*)
 ### Populate and Reverse
-Create an array of integers of length 5 and populate it using a for loop with values from 0 through 5.
+Create an array of integers of length 6 and populate it using a for loop with values from 0 through 5.
 Then print out the array backwards using a for loop.
 
 ## Problem 2: (*)
