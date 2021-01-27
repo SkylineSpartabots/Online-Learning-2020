@@ -57,6 +57,5 @@ public class MainRunner {
             System.out.print(allAminos[r.nextInt(allAminos.length)]);
         }
         */
-        
     }
 }
