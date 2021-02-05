@@ -13,19 +13,22 @@ public class MethodsOverloadingReturns {
         no input, no output
         String s = "myString";
         s.charAt(3);
-      */
+      
       int[] unSummed = {1, 5, 9, 220, 3};
       int returnedSum = example1(new int[] {1, 5, 9, 220, 3});
       example2("Varun", 77);
       double[] myd = new double[10];
       myd = example3();
       System.out.println(Arrays.toString(myd));
-
       System.out.println(changeable);
       example4();
       System.out.println(changeable);
+      */
+      String result = nameSentence("Varun", 22);
+      System.out.println(result); 
     }
     //Sections of a method:
+    
     //visibility modifier (private or public)
     //static or non static (as of now, always choose static)
     //return type (any object or primitive OR void (void means nothing -> return no value))
@@ -33,6 +36,11 @@ public class MethodsOverloadingReturns {
     //parameters (ex. (String s, int beginInt, int[] intArr))
     //body (where the code goes)
 
+    private static String nameSentence(String name, int age) { //Varun //17
+        String ret_val = "";
+        ret_val = "My name is " + name + " and my age is " + age;
+        return ret_val;
+    }
     //Template method
     /*
     public/private static [return_type] [name_of_method] ([primitive] [primitiveName], [Object] [objectName]) {

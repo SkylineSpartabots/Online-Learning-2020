@@ -1,4 +1,4 @@
-# Loops and Arrays Questions
+# Methods, Overloading and Returns problems
 Difficulties range from * (easy) to ***** (hard).
 
 ## Problem 1: (*)
