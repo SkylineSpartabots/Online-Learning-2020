@@ -1,9 +1,11 @@
 package VarunPlayground;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 import java.util.function.DoubleSupplier;
 
 public class MainRunner {
@@ -37,13 +39,23 @@ public class MainRunner {
             return ret_val;
         };
         System.out.println(Arrays.toString(plusTwenty.convert(5, 3, 4, 6, 5, 6, 4, 3, 2, 1)));
-        */
+        
         for (int i = 0; i < 20; i++) {
             double randDouble = Math.random(); 
             System.out.print(randDouble + " : ");
             int randInt = (int)Math.round(randDouble * 100);
             System.out.println(randInt + ", ");
         }
-        
+        */
+        /*byte[] byteArr = {127,0,0,0,0,0,0,0,0,0,0};
+        BigInteger bi = new BigInteger(byteArr);
+        System.out.println(bi);*/
+        /*
+        String[] allAminos = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+        Random r = new Random();
+        for (int i = 0; i < 250; i++) {
+            System.out.print(allAminos[r.nextInt(allAminos.length)]);
+        }
+        */
     }
 }

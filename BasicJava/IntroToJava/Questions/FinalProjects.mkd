@@ -1,0 +1,45 @@
+# Final Projects!
+### In order to move onto Java OOP, you will need to complete <u>TWO out of the THREE</u> problems listed below. 
+### Because this is a genuine test of your skill, <b>I am not going to be able to offer much help in the way of logic.</b> I can and will however answer small questions (small means that I can type out the answer in a paragraph or less)
+#### <u>Example of what to ask:</u> 
+- I am having trouble comparing these two characters in an if check. How do I do that again?
+#### <u>Example of what <b>NOT</b> to ask:</u> 
+- I'm having trouble getting started on this project. Where do I begin?
+#### That being said, I have given a basic pseudocode/logic map/breakdown for each project. However, how you interpret and solve it can be completely different. I'm just here to guide your thinking. <br><br>
+
+## Project 1:
+### Blackjack
+Make a fully playable game of blackjack (player vs. CPU). <br>
+Steps:
+- Create a "main" loop that runs as long as a boolean is true. Change this boolean to false and break out of the loop if the player submits a "q" or "quit" through the scanner.
+- Within this loop, store both the player card sum and the CPU card sum (what primitive should you use to store? Hint: There are no decimals with card values)
+- Create arrays to store card values (for now, do not worry about Aces being either 1 or 11) Use the Random class (you may have to look this up) to pick a "card" (you're really selecting a value) from this array
+- Create arrays that hold literal card names and suits. Suits don't really matter all too much in Blackjack so it's essentially optional. Make sure your card names match up with their assigned values though.
+- Create a method that can segment the repetitive work of drawing cards for you
+- Prompt the user to either draw or pass on their turn, and keep going until both the CPU and user "pass", then show cards
+- If one player goes bust, the other automatically wins
+- Be sure to watch out for the edge case of a tie!
+
+## Project 2:
+### Outfit Maker
+Make a program that selects your outfits for you. <br>
+Steps:
+- Catalog your closet! I would recommend grouping by article of clothing (i.e socks, tops) and then color (i.e green, blue) so you know what you're referring to.
+- Create 4 2D String arrays, each one for the seasons so you don't get recommended a t-shirt in January
+- In those arrays, manually initialize them with the values from your closet catalog. Each row should contain a different article of clothing (i.e Row 0: hats, Row 1: masks, Row 2: tops)
+- Use the Date class to get the month from your computer clock, and use that to get the season! (This is a bit advanced, DM me if you are confused)
+- Use the random class to select a piece of clothing from each row from the appropriate 2D array. 
+- Print out your outfit
+- You can also create an exclusions list if you don't like certain colors or styles together (Hint: Use the .contains() String method)
+
+## Project 3:
+### Tic-Tac-Toe
+Make a tic-tac-toe game against another player. <br>
+Steps:
+- Create a "main" loop that runs as long as a boolean is true. Change this boolean to false and break out of the loop if the player submits a "q" or "quit" through the scanner.
+- Make a method that prints a board given a 2D array that represents the board (0 could be empty, 1 could be Xs, 2 could be Os)
+- Have a "place" method that takes in a coordinate pair and places an X or an O at that location on the board depending on who's turn it is
+- Have a win condition check in a method (Xs or Os in a row/column/diagonal) and it should return a boolean
+- Prompt the user to type in their coordinate pair, also print out the board and who's turn it is
+- Prompt the user to play again after deciding the winner
+

@@ -2,7 +2,7 @@ package Questions.Answers;
 
 import java.util.Scanner;
 
-public class MathScannersErrorsSolutions {
+public class MathScannersErrorsAnswers {
     public static void main(String[] args) {
         //Information Splicer
         /*
@@ -94,18 +94,24 @@ public class MathScannersErrorsSolutions {
         }
         */
         //Place Shifter
-        /*
         Scanner sc = new Scanner(System.in);
         System.out.println("Your number?");
         try {
+            
             int n = sc.nextInt();
+
             int a, b, c, d, e, f;
+            //123450 + 6 = 123456
+            //123456/10 = 12345.6 -> 12345 (NO ROUNDING) - truncation
+            //12340 + 5 
+            //1234.56 1230 + 4
             f = n % 10;
             e = (n/10) % 10;
             d = (n/100) % 10;
             c = (n/1000) % 10;
             b = (n/10000) % 10;
             a = (n/100000) % 10;
+
             if(a < 9) {
                 a++;
             }
@@ -122,12 +128,11 @@ public class MathScannersErrorsSolutions {
                 e++;
             }
             if(f < 9) {
-            f++;
+                f++;
             }
             System.out.println(a + "" + b + "" + c + "" + d + "" + e + "" + f);
         } catch(NumberFormatException nfe) {
             System.out.println("Invalid input");
         }
-        */
     }
 }

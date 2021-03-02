@@ -1,0 +1,70 @@
+# Loops and Arrays Questions
+Difficulties range from * (easy) to ***** (hard).
+
+## Problem 1: (*)
+### Populate and Reverse
+Create an array of integers of length 6 and populate it using a for loop with values from 0 through 5.
+Then print out the array backwards using a for loop.
+
+## Problem 2: (*)
+### Simple Triangle
+Print out these shapes using nested for loops
+```
+*
+**
+***
+****
+*****
+
+1
+12
+123
+1234
+12345
+```
+
+## Problem 3: (**)
+### Squash and Split
+Create an array of random numbers (Can be hardcoded in). Print out the sum of those numbers and which numbers from 2-9 the sum is divisible by.
+
+## Problem 4: (**)
+### Loopable Calculator
+Add while loops to make your calculator project repeatable. The code should keep asking for numbers to add unless the input "q" is given, in which case the calculator should quit.
+
+## Problem 5: (***)
+### Magic Square
+If a matrix has all of its rows, columns, and diagonals add up to the same number, it is a "magic square".
+Given a 2D 5x5 Array, make sure that all rows, columns, and diagonals sum up to the same number.  If this is/isn't the case for the 2D array, print "This is/isn't a magic square" out to the console.
+
+## Problem 6: (***)
+### Scalable Mirror
+Write a java program using nested loops to create the following mirror print that is scalable using a constant
+```
+Size 3:
+    <><>
+  <>....<>
+<>........<>
+<>........<>
+  <>....<>
+    <><>
+
+Size 4:
+      <><>
+    <>....<>
+  <>........<>
+<>............<>
+<>............<>
+  <>........<>
+    <>....<>
+      <><>
+```
+
+## Problem 7 (****)
+### Blackjack
+Make a fully playable game of blackjack (player vs. CPU). Not much help on this one, its open to interpretation. DM me for help!
+
+## Problem 8 (*****)
+### Outfit Maker
+More of a project than a problem. Details to come!
+
+

@@ -1,0 +1,30 @@
+# Methods, Overloading and Returns problems
+Difficulties range from * (easy) to ***** (hard).
+
+## Problem 1: (*)
+### Min and Max
+Create a method that takes in an array of integers and a boolean. If the boolean is true, calculate the maximum value of the array. If the boolean is false, calculate the minimum. Return the appropriate value as an integer.
+
+## Problem 2: (*)
+### Is Divisible?
+Create a method that takes in two numbers, and returns true if the first number is perfectly divisible by the second number and false if it isn't.
+
+## Problem 3: (**)
+### Regular Polygon Perimeter
+Create a method that takes in a number of sides and a side length. Return an integer that is equal to the perimeter of the shape (assuming the shape is a regular polygon). Return -1 if the side number is less than 3 or the side length is less than 0.
+
+## Problem 4: (**)
+### Affordability
+Create a method that takes in a number which is the "cost" of an item. There should be a class variable called "wallet" that you subtract from the amount of money you passed into the method (the money was "spent"). If the money left in the wallet is above zero after the "transaction", return true and remove the appropriate amount of money from the wallet. If not, return false and DO NOT subtract any money from the wallet.
+
+## Problem 5: (**)
+### Derivative Calculator Method
+Use your derivative calculator code from before, but turn it into a method that takes in a string and spits out the derived string.
+
+## Problem 6: (***)
+### Triangle Teller
+Create a method that takes in 3 side lengths (as doubles) and determines if the triangle passed in is equilateral, isosceles, or scalene. It should also tell you if the triangle is "special" (i.e 45-45-90, 30-60-90). Hint: Return a string.
+
+## Problem 8: (****)
+### Between Dates
+Create a method that takes in two dates in MM/DD/YYYY form and calculates the amount of days between those two dates. You can ignore leap years if you'd like.
